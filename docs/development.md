@@ -24,6 +24,12 @@ The API inventories `frontend/dist` at startup, so restart it after rebuilding. 
 
 Fonts are configured in [frontend/public/fonts.css](../frontend/public/fonts.css). Departure Mono is included locally with its license. Anthropic font declarations use hosted assets, so the browser may make external font requests; Chinese text uses system-font fallbacks.
 
+## README screenshot
+
+Keep a current screenshot of the homepage near the top of the README. Capture the actual running application at `http://127.0.0.1:8000/` in a fresh browser session, before submitting a question. Use a desktop viewport at 90% browser zoom and wait for the page, web fonts, and introductory typewriter text to load fully.
+
+Preserve the application's normal fonts, font sizes, layout, and appearance. Do not mock API responses, inject conversations, modify styles, or block font requests for the screenshot. Save it as `docs/images/homepage.png`, inspect it, and update the README image when visible frontend changes make it outdated.
+
 ## Tests
 
 The Python and frontend unit tests use fake providers and do not require model downloads, GPU inference, or hosted-model calls:

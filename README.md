@@ -4,6 +4,8 @@ Ask questions in Chinese about the GDPR, selected HIPAA regulations, and your le
 
 The app includes a desktop browser interface, a command-line client, and an HTTP API. You can ask follow-up questions, quote a source passage, switch retrieval on or off, and optionally listen to answers using local speech synthesis.
 
+![Course RAG homepage with the course materials, question input, and example questions.](docs/images/homepage.png)
+
 ## How it works
 
 With **RAG on**, the app retrieves 50 candidate passages, reranks them to five, and sends those passages to DeepSeek to generate an answer. Follow-up questions use the last five conversation turns. Each answer keeps its own citations.
