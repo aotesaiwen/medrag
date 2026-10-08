@@ -1,0 +1,69 @@
+{
+  "embedding": {
+    "repo_id": "Qwen/Qwen3-Embedding-8B",
+    "revision": "1d8ad4ca9b3dd8059ad90a75d4983776a23d44af",
+    "dtype": "bfloat16",
+    "local_path": "models/embedding"
+  },
+  "reranker": {
+    "repo_id": "Qwen/Qwen3-Reranker-8B",
+    "revision": "77d193c791ed757ca307ee72715aa132723da912",
+    "dtype": "bfloat16",
+    "local_path": "models/reranker"
+  },
+  "vlm": {
+    "repo_id": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "dtype": "bfloat16",
+    "local_path": "models/vlm"
+  },
+  "pipeline": {
+    "repo_id": "opendatalab/PDF-Extract-Kit-1.0",
+    "revision": "ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+    "dtype": "float32",
+    "local_path": "models/pipeline",
+    "allow_patterns": [
+      "models/Layout/PP-DocLayoutV2/*",
+      "models/MFR/unimernet_hf_small_2503/*",
+      "models/OCR/paddleocr_torch/*"
+    ]
+  },
+  "mineru": {
+    "repo_id": "opendatalab/MinerU2.5-Pro-2605-1.2B",
+    "revision": "bff20d4ae2bf202df9f45284b4d43681555a97ed",
+    "dtype": "bfloat16",
+    "local_path": "models/mineru"
+  },
+  "speech": {
+    "repo_id": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+    "revision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+    "dtype": "float16",
+    "local_path": "models/cosyvoice",
+    "allow_patterns": [
+      "*.json",
+      "*.yaml",
+      "llm.pt",
+      "llm.rl.pt",
+      "flow.pt",
+      "hift.pt",
+      "campplus.onnx",
+      "speech_tokenizer_v3.onnx",
+      "CosyVoice-BlankEN/*"
+    ],
+    "runtime_repo": "https://github.com/FunAudioLLM/CosyVoice.git",
+    "runtime_revision": "074ca6dc9e80a2f424f1f74b48bdd7d3fea531cc",
+    "runtime_path": "models/CosyVoice-runtime",
+    "matcha_revision": "dd9105b34bf2be2230f4aa1e4769fb586a3c824e",
+    "normalizer": {
+      "repo_id": "pengzhendong/wetext",
+      "revision": "b04bc07588601f7619b20efbb01cd1fa7278ccbc",
+      "local_path": "models/speech-normalizer",
+      "sha256": {
+        "en/tn/tagger.fst": "245e2dc9174cdd007a8e9e50f3339773d1adbbc7535b71cf67478dc1683cc3ec",
+        "en/tn/verbalizer.fst": "03155c88f317b2795969e264c19f87faf98b9853d5ac631e419bacdc3b3ee15a",
+        "zh/tn/tagger.fst": "cf341314c51f7ce59049f3b2c42f0ce8fd71e6d08d4d6969613aad384a5e2ae8",
+        "zh/tn/verbalizer.fst": "5a13cd679dd54637d12d2bd1bd33ee2165d91c867e14468c93195af02256e5da"
+      }
+    }
+  }
+}

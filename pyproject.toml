@@ -1,0 +1,25 @@
+[project]
+name = "course-rag"
+version = "0.1.0"
+description = "Local multilingual regulation and course RAG"
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+  "beautifulsoup4>=4.13,<5",
+  "fastapi>=0.115,<1",
+  "httpx>=0.28,<1",
+  "huggingface-hub>=0.34,<2",
+  "lxml>=5,<7",
+  "openai>=1.100,<3",
+  "pymupdf>=1.26,<2",
+  "python-dotenv>=1.1,<2",
+  "tokenizers>=0.21,<1",
+  "uvicorn>=0.35,<1",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,3 @@
+@font-face {font-family:'Departure Mono';src:url('/fonts/DepartureMono-Regular.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:'Anthropic Sans';src:local('Anthropic Sans'),url('https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/69971a00a3295036497e1a28_AnthropicSans-Roman-Web.woff2') format('woff2');font-weight:300 800;font-style:normal;font-display:swap;}
+@font-face {font-family:'Anthropic Serif';src:local('Anthropic Serif'),url('https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/69971a1551eb6cda0d656e8a_AnthropicSerif-Roman-Web.woff2') format('woff2');font-weight:300 800;font-style:normal;font-display:swap;}

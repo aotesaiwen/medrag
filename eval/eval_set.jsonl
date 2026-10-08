@@ -1,0 +1,3 @@
+{"id":"gdpr-erasure","question":"GDPR 第17条第1款规定，在什么情况下个人有权要求删除其个人数据？","query_type":"exact_ref","relevant_chunk_ids":["gdpr:art17:p1"]}
+{"id":"gdpr-pseudonymisation","question":"GDPR 第4条第5项对假名化（pseudonymisation）的定义是什么？","query_type":"exact_ref","relevant_chunk_ids":["gdpr:art4:5"]}
+{"id":"hipaa-amendment","question":"患者发现医疗机构保存的健康信息有错误，可以要求更正吗？医疗机构在什么情况下可以拒绝？","query_type":"conceptual","relevant_chunk_ids":["hipaa:164.526.a"]}
